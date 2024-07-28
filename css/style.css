@@ -63,7 +63,7 @@ a {
 .header-img {
     width: 100%;
     height: 800px;
-    background-image: url('/aldick.github.io/img/hero-img.png');
+    background-image: url(../img/hero-img.png);
     background-repeat: no-repeat;
     background-repeat: round;
 }
@@ -99,7 +99,7 @@ a {
     height: 23px;
     width: 23px;
     background-repeat: no-repeat;
-    background-image: url(/aldick.github.io/img/header-cart.png);
+    background-image: url(../img/header-cart.png);
     margin-right: 21px;
 }
 
@@ -115,7 +115,7 @@ a {
 .header-phone-number-img {
     height: 23px;
     width: 23px;
-    background-image: url(/aldick.github.io/img/header-phone.png);
+    background-image: url(../img/header-phone.png);
     margin-right: 11px;
 }
 
@@ -278,7 +278,7 @@ a {
 .our-story-bottom {
     width: 100%;
     height: 357px;
-    background-image: url(/aldick.github.io/img/our-story-bg.png);
+    background-image: url(../img/our-story-bg.png);
     display: flex;
     flex-direction: row;
 }
@@ -376,7 +376,7 @@ a {
 .our-menu {
     height: 1036px;
     width: 100%;
-    background-image: url(/aldick.github.io/img/our-menu-bg.png);
+    background-image: url(../img/our-menu-bg.png);
     margin-top: 152px;
 }
 
@@ -409,14 +409,14 @@ a {
     margin-bottom: 32px;
     width: 225px;
     height: 225px;
-    background-image: url(/aldick.github.io/img/our-menu-item-image.png);
+    background-image: url(../img/our-menu-item-image.png);
     position: relative;
 }
 
 .our-menu-item-image-price-bg {
     width: 100px;
     height: 100px;
-    background-image: url(/aldick.github.io/img/our-menu-item-image-bg.png);
+    background-image: url(../img/our-menu-item-image-bg.png);
     position: absolute;
     bottom: 0;
     right: 0;
