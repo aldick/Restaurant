@@ -515,3 +515,8 @@ a {
     margin-bottom: 60px;
     margin-top: 60px;
 }
+
+footer {
+    background-image: url(../img/footer.png);
+    margin-top: 100px;
+}
