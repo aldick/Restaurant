@@ -18,9 +18,8 @@
                     <div class="header-nav">
                         <div class="header-navbar">
                             <li class="header-navbar-elem"><a href="#">Главная</a></li>
-                            <li class="header-navbar-elem"><a href="#">Меню</a></li>
-                            <li class="header-navbar-elem"><a href="#">О нас</a></li>
-                            <li class="header-navbar-elem"><a href="#">Бронь</a></li>
+                            <li class="header-navbar-elem menu-button"><a href="#">Меню</a></li>
+                            <li class="header-navbar-elem about-us-button"><a href="#">О нас</a></li>
                             <li class="header-navbar-cart"></li>
                         </div>
                         <div class="header-phone">
@@ -40,7 +39,7 @@
                     <div class="header-discription">
                         <p>————  ДОМ ЛУЧШЕЙ ЕДЫ  ————</p>
                     </div>
-                    <div class="header-text-button">
+                    <div class="header-text-button menu-button">
                         <a href="#">VIEW MENU</a>
                     </div>
                 </div>
@@ -188,12 +187,41 @@
         </div>
 
         <div class="testimonial">
-            <p class="testimonial-user-review">
-                Я надолго запомню мой День рождения, проведённый в этом ресторане! Кусочек родной Армении!!! Отдельное спасибо за комплепент в виде фруктовой тарелки. Будем рекомендовать этот ресторан своим друзьям и родственникам также за рубежом, путешествующих в Санкт-Петербург!!!
-            </p>
-            <img src="img/testimonial-user-avatar.png" alt="" class="testimonial-user-avatar">
-            <div class="testimonial-user-post">Посетитель</div>
-            <div class="testimonial-user-name">Николай</div>
+            <div class="container testimonial-slider-container">
+                <div class="testimonial-slider">
+                    <div class="testimonial-slide">
+                        <p class="testimonial-user-review">
+                            Я надолго запомню мой День рождения, проведённый в этом ресторане! Кусочек родной Армении!!! Отдельное спасибо за комплепент в виде фруктовой тарелки. Будем рекомендовать этот ресторан своим друзьям и родственникам также за рубежом, путешествующих в Санкт-Петербург!!!
+                        </p>
+                        <img src="img/testimonial-user-avatar.png" alt="" class="testimonial-user-avatar">
+                        <div class="testimonial-user-post">Посетитель</div>
+                        <div class="testimonial-user-name">Николай</div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <p class="testimonial-user-review">
+                            Ресторан удивил вкусными и нежными бургерами, которые тают во рту. Идеально приготовленное мясо и свежие ингредиенты делают каждый бургер настоящим шедевром. Обязательно вернусь, чтобы насладиться этими кулинарными произведениями искусства снова!
+                        </p>
+                        <img src="img/testimonial-user-avatar1.png" alt="" class="testimonial-user-avatar">
+                        <div class="testimonial-user-post">Посетитель</div>
+                        <div class="testimonial-user-name">Алдияр</div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <p class="testimonial-user-review">
+                            Имба патча
+                        </p>
+                        <img src="img/testimonial-user-avatar2.png" alt="" class="testimonial-user-avatar">
+                        <div class="testimonial-user-post">Посетитель</div>
+                        <div class="testimonial-user-name">Галымжан</div>
+                    </div>
+                </div>
+                <div class="testimonial-points">
+                    <div class="testimonial-point testimonial-point1"></div>
+                    <div class="testimonial-point testimonial-point2"></div>
+                    <div class="testimonial-point testimonial-point3"></div>
+                </div>
+                <button class="prev-button" aria-label="Посмотреть предыдущий слайд">&lt;</button>
+                <button class="next-button" aria-label="Посмотреть следующий слайд">&gt;</button>
+            </div>
         </div>
 
         <div class="food-gallery">
@@ -228,8 +256,9 @@
         <img class="footer-img" src="img/footer.png" alt="">
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script> -->
     <script src="js/index.js"></script>
+    <script src="js/slider.js"></script>
 </body>
 </html>
