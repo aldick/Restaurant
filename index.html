@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <header class="header">
@@ -17,10 +20,22 @@
                     </div>
                     <div class="header-nav">
                         <div class="header-navbar">
-                            <li class="header-navbar-elem"><a href="#">Главная</a></li>
                             <li class="header-navbar-elem menu-button"><a href="#">Меню</a></li>
                             <li class="header-navbar-elem about-us-button"><a href="#">О нас</a></li>
+                            <li class="header-navbar-elem testimonial-button"><a href="#">Отзывы</a></li>
                             <li class="header-navbar-cart"></li>
+                        </div>
+                        <div class="header-hamburger">
+                            <div class="header-hamburger-list">
+                                <li class="menu-button"><a href="#" class="header-hamburger-item">Меню</a></li>
+                                <li class="about-us-button"><a href="#" class="header-hamburger-item">О нас</a></li>
+                                <li class="testimonial-button"><a href="#" class="header-hamburger-item">Отзывы</a></li>
+                                <!-- <li><a href="#" class="header-hamburger-item">Корзина</a></li> -->
+                                <img src="img/header-cancel.png" alt="" class="header-hamburger-item">
+                            </div>
+                            <div class="header-hamburger-button">
+                                <img src="img/header-menu.png" alt="" class="header-hamburger-open">
+                            </div>
                         </div>
                         <div class="header-phone">
                             <div class="header-phone-number">
@@ -124,17 +139,17 @@
                             <div class="our-daily-item">
                                 <img class="our-daily-item-image" src="img/our-daily-item.png" alt="">
                                 <p class="our-daily-item-name">Гамбургер мини</p>
-                                <p class="our-daily-item-price">220 ₽</p>
+                                <p class="our-daily-item-price">220₽</p>
                             </div>
                             <div class="our-daily-item">
                                 <img class="our-daily-item-image" src="img/our-daily-item.png" alt="">
                                 <p class="our-daily-item-name">Гамбургер мини</p>
-                                <p class="our-daily-item-price">220 ₽</p>
+                                <p class="our-daily-item-price">220₽</p>
                             </div>
                             <div class="our-daily-item">
                                 <img class="our-daily-item-image" src="img/our-daily-item.png" alt="">
                                 <p class="our-daily-item-name">Гамбургер мини</p>
-                                <p class="our-daily-item-price">220 ₽</p>
+                                <p class="our-daily-item-price">220₽</p>
                             </div>
                         </div>
                     </div>
@@ -146,7 +161,20 @@
             <div class="container">
                 <h1 class="our-menu-heading">Наше меню</h1>
                 <div class="our-menu-list">
-                    <div class="our-menu-item">
+                    <div class="our-menu-item our-menu-item1">
+                        <div class="our-menu-item-image">
+                            <div class="our-menu-item-image-price-bg">
+                                <p class="our-menu-item-image-price-text">420</p>
+                            </div>
+                        </div>
+                        <h3 class="our-menu-item-heading">Гамбургер Макси</h3>
+                        <p class="our-menu-item-desc">Максимально толстый слой мяса</p>
+                        <p class="our-menu-item-recom">* RECOMMENDED</p>
+                        <button class="our-menu-item-button">
+                            <a class="our-menu-item-button-text" href="#">ЗАКАЗАТЬ</a>
+                        </button>
+                    </div>
+                    <div class="our-menu-item our-menu-item2">
                         <div class="our-menu-item-image">
                             <div class="our-menu-item-image-price-bg">
                                 <p class="our-menu-item-image-price-text">420</p>
@@ -158,19 +186,7 @@
                             <a class="our-menu-item-button-text" href="#">ЗАКАЗАТЬ</a>
                         </button>
                     </div>
-                    <div class="our-menu-item">
-                        <div class="our-menu-item-image">
-                            <div class="our-menu-item-image-price-bg">
-                                <p class="our-menu-item-image-price-text">420</p>
-                            </div>
-                        </div>
-                        <h3 class="our-menu-item-heading">Гамбургер Макси</h3>
-                        <p class="our-menu-item-desc">Максимально толстый слой мяса</p>
-                        <button class="our-menu-item-button">
-                            <a class="our-menu-item-button-text" href="#">ЗАКАЗАТЬ</a>
-                        </button>
-                    </div>
-                    <div class="our-menu-item">
+                    <div class="our-menu-item our-menu-item3">
                         <div class="our-menu-item-image">
                             <div class="our-menu-item-image-price-bg">
                                 <p class="our-menu-item-image-price-text">420</p>
@@ -183,9 +199,8 @@
                         </button>
                     </div>
                 </div>
-            </div>
+         </div>
         </div>
-
         <div class="testimonial">
             <div class="container testimonial-slider-container">
                 <div class="testimonial-slider">
@@ -228,7 +243,7 @@
             <div class="container">
             <h3 class="food-gallery-heading">Галерея <span class="orange">Блюд</span></h3>
                 <div class="food-gallery-list">
-                    <img src="img/food-gallery-item-1.png" class="food-gallery-item">
+                    <img src="img/food-gallery-item-1.png" class="food-gallery-item food-gallery-item-big">
                     <img src="img/food-gallery-item-2.png" class="food-gallery-item">
                     <img src="img/food-gallery-item-3.png" class="food-gallery-item">
                     <img src="img/food-gallery-item-2.png" class="food-gallery-item">
@@ -256,9 +271,9 @@
         <img class="footer-img" src="img/footer.png" alt="">
     </footer>
 
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script> -->
-    <script src="js/index.js"></script>
+
+    <script src="js/navigation.js"></script>
     <script src="js/slider.js"></script>
+    <script src="js/hamburger.js"></script>
 </body>
 </html>
